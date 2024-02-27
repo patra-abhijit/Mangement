@@ -1,5 +1,6 @@
 const login= document.getElementById('login-area'),
 dashboard = document.getElementById('dashboard'),
+
 deposit = document.getElementById('deposit'),
 withdraw = document.getElementById('withdraw'),
 balance = document.getElementById('balance'),
@@ -11,6 +12,7 @@ submitBtn = document.getElementById('submit-btn');
 submitBtn.addEventListener('click', () => {
     login.style.display = 'none';
     dashboard.classList.remove('d-none');
+   
 })
 
 depositBtn.addEventListener('click', () => {
